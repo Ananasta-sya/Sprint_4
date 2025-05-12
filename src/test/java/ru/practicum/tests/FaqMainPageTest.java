@@ -7,10 +7,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.MainPage;
+import pom.MainPage;
 
 import static org.junit.Assert.assertEquals;
-import static pageObjects.MainPage.URL;
+import static pom.MainPage.URL;
+
 
 @RunWith(Parameterized.class)
 public class FaqMainPageTest {

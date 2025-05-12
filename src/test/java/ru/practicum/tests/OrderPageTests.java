@@ -8,11 +8,11 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.MainPage;
-import pageObjects.OrderPage;
+import pom.MainPage;
+import pom.OrderPage;
 
 import static org.hamcrest.CoreMatchers.containsString;
-import static pageObjects.MainPage.URL;
+import static pom.MainPage.URL;
 
 @RunWith(Parameterized.class)
 public class OrderPageTests {
